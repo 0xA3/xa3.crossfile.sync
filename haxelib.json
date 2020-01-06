@@ -1,0 +1,13 @@
+{
+	"name": "xa3.crossfile.sync",
+	"license": "MIT",
+	"classPath": "",
+	"url": "",
+	"tags": ["cross", "sys", "nodejs", "xa3"],
+	"description": "Synchronous file acess for sys and nodejs",
+	"version": "0.1.0",
+	"releasenote": "Initial release",
+	"contributors": ["0xA3"],
+	"dependencies": {
+	}
+}
