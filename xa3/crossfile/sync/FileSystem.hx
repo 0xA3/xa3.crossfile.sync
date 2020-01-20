@@ -4,7 +4,7 @@ class FileSystem {
 	
 	public static function createDirectory( path:String ) {
 		#if sys
-			FileSystem.createDirectory( path );
+			sys.FileSystem.createDirectory( path );
 		#elseif nodejs
 			js.node.Fs.mkdirSync( path );
 		#else
